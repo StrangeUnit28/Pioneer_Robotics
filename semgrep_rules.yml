@@ -1,0 +1,10 @@
+rules:
+  - id: avoid-print-statements
+    pattern: print(...)
+    message: "Evite o uso de print() no código de produção."
+    severity: WARNING
+    languages: 
+      - python
+    metadata:
+      category: best-practices
+      confidence: MEDIUM
