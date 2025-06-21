@@ -1,2 +1,4 @@
-numpy == 2.3.0
+numpy
 semgrep == 1.124.0
+pandas
+matplotlib
