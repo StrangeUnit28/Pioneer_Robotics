@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Caminho do arquivo CSV
-arquivo_csv = "Pioneer_experiment.csv"  # Ex: "trajetoria_pioneer.csv"
+arquivo_csv = "Pioneer_primitivas.csv"  # Ex: "trajetoria_pioneer.csv"
 
 # Lê o CSV
 df = pd.read_csv(arquivo_csv)
