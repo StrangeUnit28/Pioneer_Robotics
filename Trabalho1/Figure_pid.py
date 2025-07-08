@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Caminho do arquivo CSV
-arquivo_csv = "Pioneer_experiment.csv"  # Ex: "trajetoria_pioneer.csv"
+arquivo_csv = "Pioneer_pid.csv"  # Ex: "trajetoria_pioneer.csv"
 
 # Lê o CSV
 df = pd.read_csv(arquivo_csv)
@@ -23,7 +23,7 @@ plt.plot(-2, 1.5, 'ko', label='Bola 1')  # verde
 plt.plot(-0.5, -0.5, 'mo', label='Bola 2')   # vermelho
 plt.plot(1, 1.5, 'yo', label='Bola 3')  # verde
 plt.plot(1.5, -1.5, 'co', label='Bola 4')   # vermelho
-plt.plot(x.iloc[0], y.iloc[0], 'go', label='Início')  # verde
+plt.plot(x.iloc[1], y.iloc[1], 'go', label='Início')  # verde
 plt.plot(x.iloc[-1], y.iloc[-1], 'ro', label='Fim')   # vermelho
 plt.legend()
 plt.legend()
